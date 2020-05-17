@@ -6,7 +6,7 @@ Hello! Please commit your notes to your own branch, and I will merge them into t
 
 Naming Convention
 
-  <USERNAME>_CHPT#_<DATE_TAKEN>
+  USERNAME _ CHPT# _ <DATE_TAKEN>
   
   So If I make a file for chapter 3 part 1 on 5/15, my filename would be
   
