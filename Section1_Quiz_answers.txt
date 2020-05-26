@@ -1,0 +1,161 @@
+CHPT 1 Quiz Questions
+	
+A ___ Is any collection of related data, electronic or not
+	Ans: Database
+
+
+A _______________ is a subset of the real world, about which we will store data.
+	Ans: Mini-World
+
+A _______________ is a software system that helps facilitate the creation, storage, and use of a database
+	Ans: Database Management System
+
+Programs that access a database refer to the Data Model, and not to the actual storage details of the data.
+	Ans: True
+
+
+A Database Management System typically provide the functionality to allow us to ...
+	Ans: (Multiple Select)
+		Define a database
+		Manipulate the data in the database
+		Construct the database
+		Provide concurrent access to database by multiple users
+
+
+
+
+
+
+
+
+
+CHPT 2 Quiz Questions
+
+A database schema includes the data stored in the database
+	Ans: False
+
+A database state includes the data that was in the database at a particular time
+	Ans: True 
+
+
+Which of the following should change very frequently
+	Ans: A database State
+
+_________________________________ Data Independence is the capacity to change the internal schema for how data is stored on disk without having to change the conceptual schema
+	Ans: Physical
+
+________________________________ Data Independence is the capacity to change the conceptual schema without having to change the external schemas and their associated applications
+	Ans: Logical
+
+In a three tier client-server architecture where is the database management system?
+	Ans: Database Server
+
+In a three tier client-server architecture where is the business logic?
+	Ans: Application Server
+
+
+
+
+
+
+
+
+
+Chpt 3 Pt 1 Quiz Questions
+Which Sentence is correct? (***WARNING: This is liable to get more answers as a Mutliple select question)
+	Ans: Attributes are properties to describe an entity
+
+An Attribute can only have a single value for each entity
+	Ans: False
+
+An attribute (all kinds of attributes) can only be a simple atomic value that can not be divided further
+	Ans: False
+
+In our ER diagrams we will use a rectangle to show an entity type, not to show an entity
+	Ans: True
+
+
+Chpt 3 Pt 2 Quiz Questions
+A relationship relates 2 or more distinct _________
+	Ans: Entities
+	
+Two Entities of the same netity type can be in a relationship with each other
+	Ans: True (called a recursive relationship)
+
+A relationship cannot have attributes
+	Ans: False
+
+A weak entity is uniquely identified by ...
+	Ans: A combo of its Partial Key and the specific entity it is related to in the Identfying Relationship
+
+
+
+
+
+
+
+Chpt 4 Quiz Questions
+An entity type B that is a subclass of entity type A inherits the attributes of A, but the the relationship types of A
+	Ans: False
+
+If we have a superclass S that is specialized into subclasses X, Y, and Z, and that specialization is total and overlapping then…
+	Ans: Multiple Select
+		An entity of S must be a member of at least one of the subclasses X, Y, and Z
+		An entity of S can be a member of multiple subclasses (such as X and Z)
+
+If we have a superclass S that is specialized into subclasses X, Y, and Z, and that specialization is partial and disjoint then…
+	Ans: Multiple Select
+		An entity of S can only be a member of one subclass
+		An entity of S does not need to be a member of one of the subclasses
+
+In EER modeling a subclass can itself be a superclass to other subclasses
+	Ans: True
+
+If S is a shared subclass of X, Y, and Z then...
+	Ans: S must exist in all of its superclasses X, Y, and Z
+
+If S is a union type subclass of X, Y, and Z then
+	Ans: S must exist in at least one of its superclasses X, Y, and Z 
+
+
+
+
+
+
+
+Chpt 5 Quiz Questions
+What is the formal definition of a tuple
+	Ans: An ordered set of values
+
+The order of the tuples in a relation matters, i.e. two relations with the same attributes and tuples, but the tuples are in different orders are considered different relations
+	Ans: False
+
+The order of the attributes in a tuple matters. Example: <Joe, 5, 7>!=<5,7,Joe>
+	Ans: True
+
+An Attribute in a tuple can be a set of values. An attribute can be divided further into sub-attributes
+	Ans: False
+
+Which constraint is broken if the key of a tuple is NULL
+	Ans: Entity Integrity Constraint
+
+Which constraint is broken if two tuples in one relation have the same value for the primary key
+	Ans: Key Constraint
+
+Which constraint is broken if the foreign key value in a tuple is not equal to either primary key value in the referenced relation or null?
+	Ans: Referential Integrity Constraint
+
+Which Constriants could be broken by an insert operation
+	Ans: (Multiple Select)
+		Entity Integrity Constraint
+		Domain Constraint
+		Referential Integrity constraint
+		Key Constraint
+
+Which constraints could be broken by an Update operation (Depending on which attributes are updated)
+	Ans: Entity Integrity Constraint
+
+Which constraints could be broken by a delete operation?
+	Ans: Referential Integrity Constraint
+
+
