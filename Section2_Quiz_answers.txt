@@ -1,0 +1,120 @@
+Chapter 6 part 1 quiz questions 
+In SQL, the term TABLE refers to which concept from our Relational Model
+	Ans: Relation
+
+In SQL, the term ROW refers to which concept from our Relational Model
+	Ans: Tuple
+
+In SQL, the term COLUMN refers to which concept from our Relational model?
+	Ans: Attribute
+
+SQL does not require you to name a constraint, but it is a best practice to do so you can easily change it later.
+	Ans: True
+
+The only constraints we can put in SQL are the Key, Entity Integrity, and Referential Integrity constraints.
+	Ans: True
+
+Once we have created our tables in our database, there is no way to change the schema or the constraints of the table besides dropping the table and recreating it.
+	Ans: False
+
+Commercial DBMSs all allow for the full SQL syntax as described in the SQL Standard
+	Ans: False
+
+
+
+
+
+Chapter 6 part 2 quiz questions 
+
+SQL allows tables to have multiple rows with the same values for each column
+	Ans: True
+
+Which of the following are a comparison operator in SQL?
+	Ans: MULTIPLE SELECT
+		Between
+		Like
+		<>
+
+SQL can only pull data from one table at a time
+	Ans: False
+
+When you list multiple tables in the FROM clause of your SQL Select statement, the temporary table that is created combining the two tables will be...
+	Ans: The cartesian product of the tables
+
+
+
+Chapter 6 Part 3 Quiz questions
+
+If you want to remove the entire table from the SQL Schema, you just leave out the WHERE clause on your DELETE command
+	Ans: False
+
+You can use standard arithmetic expressions in your SELECT clause to return new calculated values.
+	Ans: True
+
+You can force the table returned by a SELECT statement to be ordered by a certain column in the table
+	Ans: True
+
+
+
+
+
+Chapter 7 part 1 Quiz questions 
+
+Which is of the following will evaluate to true?
+	Ans: MULTIPLE SELECT
+		4 >= ALL(1,2,3,4)
+		4 <> ALL(1,2,3,5)
+
+Which of the following will Evaluate to true?
+	Ans: MULTIPLE SELECT
+		4 <= ANY(1,2,3,4)
+		4 > ANY(1,2,3,4)
+		4 >= ANY(1,2,3,4)
+		4 <> ANY(1,2,3,4)
+		4 = ANY(1,2,3,4)
+
+In order to use natural join on tables A and B…
+	Ans: A and B must have a column with the exact same name for them to join on
+
+Using JOINs in the FROM clause is more memory efficient than listing tables, but slower
+	Ans: False
+
+
+
+
+
+Chapter 7 part 2 Quiz Questions (all non true false questions are multiple select, be weary of additional answers)
+	
+Which clause in our SELECT statement is used to partition the returned tuples into categories?
+	Ans: GROUP BY
+
+Which clause in our SELECT statement is used to select only tuples that meet a certain condition?
+	ANS: WHERE
+
+Which clause in our SELECT statement is used to select only sub-categories that meet a certain condition?
+	ANS: HAVING3
+
+Which of the following are a component of a TRIGGER?
+	Ans:	A condtion to check
+		An action to take
+		An event
+
+A view is populated with data when it is created, and will not update when the data it is based on updates
+	Ans: False
+
+You can use a View in the FROM clause of a SELECT statement
+	Ans: True
+
+VIEWS can be useful for...
+	ANS:	 Hiding sensitive information from users by only granting access to the view and not to the whole table
+		 Representing commonly used joins to avoid repeating the join statements in multiple queries
+
+
+NULL = NILL will evaluate as
+	Ans: unknown
+
+
+
+
+
+Chapter 10 Quiz Questions: Not yet available (will update when results are issued) 
